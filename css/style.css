@@ -38,7 +38,7 @@
 
 @font-face {
   font-family: 'Brandon';
-  src: url('../assets/fonts/Brandon_Grotesque_regular.otf') format('woff2');
+  src: url('../assets/fonts/BrandonGrotW01Light.ttf') format('truetype');
   font-style: normal;
   font-weight: normal;
 }
@@ -76,8 +76,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: "Brandon", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
+  font-size: 1.3rem;
+  font-weight: 500;
   line-height: 1.5;
   color: #656565;
   text-align: left;
@@ -387,7 +387,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.2;
   color: #212121;
 }
@@ -2575,7 +2575,7 @@ fieldset:disabled a.btn {
 .show > .btn-warning.dropdown-toggle {
   color: #212529;
   background-color: #d39e00;
-  border-color: #c69500;
+  border-color: #c69600;
 }
 
 .btn-warning:not(:disabled):not(.disabled):active:focus, .btn-warning:not(:disabled):not(.disabled).active:focus,
@@ -4432,7 +4432,7 @@ input[type="button"].btn-block {
 
 .card-body {
   flex: 1 1 auto;
-  min-height: 500px;
+  min-height: 600px;
   padding: 1.25rem;
 }
 
@@ -5591,7 +5591,7 @@ a.close.disabled {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 600px;
     margin: 1.75rem auto;
   }
   .modal-dialog-scrollable {
@@ -9517,7 +9517,7 @@ a.text-dark:hover, a.text-dark:focus {
 h1,
 h2,
 .font-weight-bold {
-  font-weight: 500 !important;
+  font-weight: 600 !important;
 }
 
 h3,
@@ -9529,7 +9529,7 @@ h4,
 h5,
 h6,
 .font-weight-medium {
-  font-weight: 500 !important;
+  font-weight: 600 !important;
 }
 
 .btn-square {
@@ -9576,7 +9576,7 @@ h6,
 .navbar-light .navbar-nav .nav-link {
   padding: 30px 15px;
   color: #212121;
-  font-weight: 500;
+  font-weight: 600;
   outline: none;
 }
 
